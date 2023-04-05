@@ -13,7 +13,7 @@ steps:
       - '--platform'
       - 'managed'
       - '--region'
-      - 'global'
+      - 'southamerica-east1'
       - '--no-allow-unauthenticated'
       - '--update-env-vars'
       - 'ENV_VAR_1=value1,ENV_VAR_2=value2'
