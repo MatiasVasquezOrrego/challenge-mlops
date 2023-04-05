@@ -10,6 +10,6 @@ COPY . /src /app/
 COPY . /models /app/
 COPY api.py /app/
 
-EXPOSE 8000
+EXPOSE 8080
 
-ENTRYPOINT uvicorn api:app
+ENTRYPOINT ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8080"]
